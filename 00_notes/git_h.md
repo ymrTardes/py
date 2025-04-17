@@ -6,6 +6,9 @@ git config --global --unset credential.helpermanager
 * Сохранять учетные данные
 git config --global credential.helper store
 
+* Инициализация репозетория
+git init
+
 * Клонировать репозеторий
 git clone https://github.com/ТВОЙ_ЛОГИН/ИМЯ_РЕПО.git
 cd ИМЯ_РЕПО
