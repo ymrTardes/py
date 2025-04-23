@@ -23,6 +23,9 @@ git add .
 git commit -m "БЛА БЛА"
 git push origin master
 
+* можно git add и git cpmmit объеденить в:
+git commit -a -m "bla bla"
+
 * проверка статуса репо
 git status
 
