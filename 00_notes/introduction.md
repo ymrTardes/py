@@ -94,3 +94,8 @@ print(0xb64)
 ``` Python
 print(hex(0xb64))
 ```
+Двочиная и восьмеричная соответственно
+``` Python
+print(bin(0xb64))
+print(oct(256))
+```
