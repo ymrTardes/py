@@ -22,3 +22,14 @@ echo "# Мой путь изучения Python" > 00_notes/start.md
 git add .
 git commit -m "БЛА БЛА"
 git push origin master
+
+* проверка статуса репо
+git status
+
+* история коммитов с изменениями 
+git log -p (подробно флаг -p)
+
+* добавить папку в список доверенных репорзиториев
+git config --global --add safe.directory "C:/Users/user/Documents/py"
+* список доверенных репо
+git config --global --get-all safe.directory
