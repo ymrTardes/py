@@ -1,13 +1,15 @@
 * Убрать GUI GIT
 
-```git config --global credential.helper store
+```
+git config --global credential.helper store
 git config --global --unset credential.helpermanager-core
 git config --global --unset credential.helpermanager
 ```
 
 * Сохранять учетные данные
 
-```git config --global credential.helper store
+```
+git config --global credential.helper store
 ```
 
 * Задать аккаунт по умолчанию
@@ -18,7 +20,8 @@ git config --global user.name "Your Name"
 
 * Инициализация репозетория
 
-```git init
+```
+git init
 ```
 
 * Клонировать репозеторий
