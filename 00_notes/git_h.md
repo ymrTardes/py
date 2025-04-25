@@ -81,14 +81,14 @@ git config --global --get-all safe.directory
    - После установки проверьте доступность команды:
     
 ```Bash
-     gh --version```
-     
+     gh --version
+```     
 2. Выполните авторизацию
    - Введите команду:
     
 ```Bash
-     gh auth login```
-     
+     gh auth login
+```   
    - Выберите способ авторизации (через браузер или токен доступа).
    - Авторизуйтесь, чтобы связать GitHub CLI со своим аккаунтом.
 
@@ -96,14 +96,14 @@ git config --global --get-all safe.directory
    - Если вы ещё не сделали это, запустите:
     
 ```Bash
-     git init```
-     
+     git init
+```     
 1. Создайте удалённый репозиторий
    - Введите команду:
     
 ```Bash
-     gh repo create имя_репозитория --public```
-     
+     gh repo create имя_репозитория --public
+```     
      Опции:
      - --public — сделать репозиторий публичным.
      - --private — сделать репозиторий приватным.
@@ -112,8 +112,8 @@ git config --global --get-all safe.directory
    GitHub CLI автоматически добавит удалённый репозиторий, но если нужно вручную, выполните:
   
 ```Bash
-   git remote add origin https://github.com/ваш_пользователь/имя_репозитория.git```
-   
+   git remote add origin https://github.com/ваш_пользователь/имя_репозитория.git
+```  
 6. Добавьте файлы и залейте их
    Выполните стандартные команды Git:
   
