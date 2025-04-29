@@ -122,3 +122,18 @@ git config --global --get-all safe.directory
    git commit -m "Первый коммит"
    git push -u origin main
 ```
+# использование .gitignore
+```txt
+myenv/
+.env
+__pycache__/
+```
+## удаление папки из репозетория ПРИМЕР:
+### Для всех папок __pycache__ в проекте:
+```bash
+git rm -r --cached */__pycache__
+```
+### Или для конкретной папки:
+```bash
+git rm -r --cached path/to/__pycache__
+```
